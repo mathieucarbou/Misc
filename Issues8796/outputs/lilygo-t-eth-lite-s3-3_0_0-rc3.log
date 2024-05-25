@@ -1,0 +1,169 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x508
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xad0
+load:0x403cc700,len:0x29e4
+entry 0x403c9880
+[   178][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x420091d4
+  #0  0x420091d4 in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[   189][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x420091a0
+  #0  0x420091a0 in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[   200][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x4200916c
+  #0  0x4200916c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[   212][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x42009138
+  #0  0x42009138 in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   223][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x420091d4
+  #0  0x420091d4 in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[   234][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x420091a0
+  #0  0x420091a0 in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[   246][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x4200916c
+  #0  0x4200916c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[   257][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x42009138
+  #0  0x42009138 in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   268][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x420091d4
+  #0  0x420091d4 in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[   280][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x420091a0
+  #0  0x420091a0 in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[   291][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x4200916c
+  #0  0x4200916c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[   302][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x42009138
+  #0  0x42009138 in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   314][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type USB_DM (45) successfully set to 0x420065ec
+  #0  0x420065ec in HWCDC::deinit(void*) at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/HWCDC.cpp:280
+
+[   325][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type USB_DP (46) successfully set to 0x420065ec
+  #0  0x420065ec in HWCDC::deinit(void*) at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/HWCDC.cpp:280
+
+[   337][I][esp32-hal-psram.c:90] psramInit(): PSRAM enabled
+[   368][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 44 successfully set to type UART_RX (2) with bus 0x3fc9480c
+  #0  0x3fc9480c in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+[   379][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 43 successfully set to type UART_TX (3) with bus 0x3fc9480c
+  #0  0x3fc9480c in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+[   389][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 19 successfully set to type USB_DM (45) with bus 0x3fc992d8
+  #0  0x3fc992d8 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/HWCDC.cpp:610
+
+[   400][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 20 successfully set to type USB_DP (46) with bus 0x3fc992d8
+  #0  0x3fc992d8 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/HWCDC.cpp:610
+
+=========== Before Setup Start ===========
+Chip Info:
+------------------------------------------
+  Model             : ESP32-S3
+  Package           : 0
+  Revision          : 2
+  Cores             : 2
+  Frequency         : 240 MHz
+  Embedded Flash    : No
+  Embedded PSRAM    : No
+  2.4GHz WiFi       : Yes
+  Classic BT        : No
+  BT Low Energy     : Yes
+  IEEE 802.15.4     : No
+------------------------------------------
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   374556 B ( 365.8 KB)
+  Free Bytes        :   345524 B ( 337.4 KB)
+  Allocated Bytes   :    24016 B (  23.5 KB)
+  Minimum Free Bytes:   340268 B ( 332.3 KB)
+  Largest Free Block:   303092 B ( 296.0 KB)
+------------------------------------------
+SPIRAM Memory Info:
+------------------------------------------
+  Total Size        :  8388608 B (8192.0 KB)
+  Free Bytes        :  8385672 B (8189.1 KB)
+  Allocated Bytes   :      576 B (   0.6 KB)
+  Minimum Free Bytes:  8385672 B (8189.1 KB)
+  Largest Free Block:  8257524 B (8064.0 KB)
+  Bus Mode          : OPI
+------------------------------------------
+Flash Info:
+------------------------------------------
+  Chip Size         : 16777216 B (16 MB)
+  Block Size        :    65536 B (  64.0 KB)
+  Sector Size       :     4096 B (   4.0 KB)
+  Page Size         :      256 B (   0.2 KB)
+  Bus Speed         : 80 MHz
+  Bus Mode          : QIO
+------------------------------------------
+Partitions Info:
+------------------------------------------
+                nvs : addr: 0x00009000, size:    20.0 KB, type: DATA, subtype: NVS
+            otadata : addr: 0x0000E000, size:     8.0 KB, type: DATA, subtype: OTA
+               app0 : addr: 0x00010000, size:  1280.0 KB, type:  APP, subtype: OTA_0
+               app1 : addr: 0x00150000, size:  1280.0 KB, type:  APP, subtype: OTA_1
+             spiffs : addr: 0x00290000, size:  1408.0 KB, type: DATA, subtype: SPIFFS
+           coredump : addr: 0x003F0000, size:    64.0 KB, type: DATA, subtype: COREDUMP
+------------------------------------------
+Software Info:
+------------------------------------------
+  Compile Date/Time : May 25 2024 15:04:11
+  ESP-IDF Version   : v5.1.3-462-gc432c692fa-dirty
+  Arduino Version   : 3.0.0
+------------------------------------------
+Board Info:
+------------------------------------------
+  Arduino Board     : Espressif ESP32-S3-Box
+  Arduino Variant   : esp32s3box
+  Core Debug Level  : 5
+  Arduino Runs Core : 1
+  Arduino Events on : 1
+  Arduino USB Mode  : 1
+  CDC On Boot       : 1
+============ Before Setup End ============
+[  2729][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 19 already has type USB_DM (45) with bus 0x3fc992d8
+  #0  0x3fc992d8 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/HWCDC.cpp:610
+
+[  2729][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 20 already has type USB_DP (46) with bus 0x3fc992d8
+  #0  0x3fc992d8 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/HWCDC.cpp:610
+
+[  2847][V][NetworkEvents.cpp:119] checkForEvent(): Network Event: 9 - WIFI_READY
+[  2938][W][main.cpp:25] setup(): [main] SUCCESS !
+=========== After Setup Start ============
+INTERNAL Memory Info:
+------------------[102] _o9A[V]eAt(.: pP 0t]  7To5a B ( e6 .  K     d4[  2[  2[V4[NVtwArkcppn1s.] p:n1p]vchtck:oAEventppe etwork Event: 19 - 49_S][VTAP.cp :901] DonAPEcept(8: _P Stardein
+Event(): Arduino AP Event: 19 - AP_START
+[  2958][V][NetworkEvents.cpp:119] checkForEvent(): Network Event: 20 - AP_STOP
+[  2965][D][AP.cpp:88] _onApArduinoEvent(): Arduino AP Event: 20 - AP_STOP
+[  2971][V][NetworkEvents.cpp:119] checkForEvent(): Network Event: 19 - AP_START
+[  2978][D][AP.cpp:88] _onApArduinoEvent(): Arduino AP Event: 19 - AP_START
+5pEvent(): AP Star  Free Bytes        :   299780 B ( 292.8 KB)
+  Allocated Bytes   :    67600 B (  66.0 KB)
+  Minimum Free Bytes:   299780 B ( 292.8 KB)
+  Largest Free Block:   286708 B ( 280.0 KB)
+------------------------------------------
+SPIRAM Memory Info:
+------------------------------------------
+  Total Size        :  8388608 B (8192.0 KB)
+  Free Bytes        :  8370052 B (8173.9 KB)
+  Allocated Bytes   :    15780 B (  15.4 KB)
+  Minimum Free Bytes:  8370052 B (8173.9 KB)
+  Largest Free Block:  8257524 B (8064.0 KB)
+------------------------------------------
+GPIO Info:
+------------------------------------------
+  GPIO : BUS_TYPE[bus/unit][chan]
+  --------------------------------------  
+    19 : USB_DM
+    20 : USB_DP
+    43 : UART_TX[0]
+    44 : UART_RX[0]
+============ After Setup End =============

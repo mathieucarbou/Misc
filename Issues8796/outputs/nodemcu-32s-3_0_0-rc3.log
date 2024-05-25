@@ -1,0 +1,1264 @@
+[     2][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[    14][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[    27][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[    40][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[    54][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[    67][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[    81][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[    94][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   108][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[   121][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[   135][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[   148][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   164][D][esp32-hal-cpu.c:264] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   187][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 3 successfully set to type UART_RX (2) with bus 0x3ffbdb68
+  #0  0x3ffbdb68 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+[   199][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 1 successfully set to type UART_TX (3) with bus 0x3ffbdb68
+  #0  0x3ffbdb68 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+=========== Before Setup Start ===========
+Chip Info:
+------------------------------------------
+  Model             : ESP32
+  Package           : D0WD-Q5
+  Revision          : 1.45
+  Cores             : 2
+  Frequency         : 240 MHz
+  Embedded Flash    : No
+  Embedded PSRAM    : No
+  2.4GHz WiFi       : Yes
+  Classic BT        : Yes
+  BT Low Energy     : Yes
+  IEEE 802.15.4     : No
+------------------------------------------
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   345388 B ( 337.3 KB)
+  Free Bytes        :   315156 B ( 307.8 KB)
+  Allocated Bytes   :    23184 B (  22.6 KB)
+  Minimum Free Bytes:   309636 B ( 302.4 KB)
+  Largest Free Block:   110580 B ( 108.0 KB)
+------------------------------------------
+Flash Info:
+------------------------------------------
+  Chip Size         :  4194304 B (4 MB)
+  Block Size        :    65536 B (  64.0 KB)
+  Sector Size       :     4096 B (   4.0 KB)
+  Page Size         :      256 B (   0.2 KB)
+  Bus Speed         : 40 MHz
+  Bus Mode          : DIO
+------------------------------------------
+Partitions Info:
+------------------------------------------
+                nvs : addr: 0x00009000, size:    20.0 KB, type: DATA, subtype: NVS
+            otadata : addr: 0x0000E000, size:     8.0 KB, type: DATA, subtype: OTA
+               app0 : addr: 0x00010000, size:  1280.0 KB, type:  APP, subtype: OTA_0
+               app1 : addr: 0x00150000, size:  1280.0 KB, type:  APP, subtype: OTA_1
+             spiffs : addr: 0x00290000, size:  1408.0 KB, type: DATA, subtype: SPIFFS
+           coredump : addr: 0x003F0000, size:    64.0 KB, type: DATA, subtype: COREDUMP
+------------------------------------------
+Software Info:
+------------------------------------------
+  Compile Date/Time : May 25 2024 16:58:11
+  ESP-IDF Version   : v5.1.3-462-gc432c692fa-dirty
+  Arduino Version   : 3.0.0
+------------------------------------------
+Board Info:
+------------------------------------------
+  Arduino Board     : NodeMCU-32S
+  Arduino Variant   : nodemcu-32s
+  Core Debug Level  : 5
+  Arduino Runs Core : 1
+  Arduino Events on : 1
+  CDC On Boot       : 0
+============ Before Setup End ============
+[   691][V][esp32-hal-uart.c:408] uartBegin(): UART0 baud(115200) Mode(800001c) rxPin(3) txPin(1)
+[   700][V][esp32-hal-uart.c:497] uartBegin(): UART0 not installed. Starting installation
+[   711][V][esp32-hal-uart.c:544] uartBegin(): UART0 initialization done.
+E (672) wifi_init: Failed to init supplicant (0xffffffff)
+[   840][E][WiFiGeneric.cpp:248] wifiLowLevelInit(): esp_wifi_init -1
+
+assert failed: void setup() main.cpp:19 (WiFi.mode(WIFI_AP))
+
+
+Backtrace: 0x40083085:0x3ffb20c0 0x4008bd41:0x3ffb20e0 0x400911fa:0x3ffb2100 0x400d2c1d:0x3ffb2230 0x400d9093:0x3ffb2290
+  #0  0x40083085 in panic_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/panic.c:466
+  #1  0x4008bd41 in esp_system_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/port/esp_system_chip.c:84
+  #2  0x400911fa in __assert_func at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/newlib/assert.c:81
+  #3  0x400d2c1d in setup() at src/main.cpp:19 (discriminator 1)
+  #4  0x400d9093 in loopTask(void*) at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/main.cpp:58
+
+
+
+
+
+ELF file SHA256: fc2a090461c8d5bc
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1288
+load:0x40078000,len:13856
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3048
+entry 0x40080590
+[     2][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[    14][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[    27][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[    41][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[    54][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[    67][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[    81][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[    94][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   108][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[   121][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[   135][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[   148][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   164][D][esp32-hal-cpu.c:264] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   187][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 3 successfully set to type UART_RX (2) with bus 0x3ffbdb68
+  #0  0x3ffbdb68 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+[   199][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 1 successfully set to type UART_TX (3) with bus 0x3ffbdb68
+  #0  0x3ffbdb68 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+=========== Before Setup Start ===========
+Chip Info:
+------------------------------------------
+  Model             : ESP32
+  Package           : D0WD-Q5
+  Revision          : 1.45
+  Cores             : 2
+  Frequency         : 240 MHz
+  Embedded Flash    : No
+  Embedded PSRAM    : No
+  2.4GHz WiFi       : Yes
+  Classic BT        : Yes
+  BT Low Energy     : Yes
+  IEEE 802.15.4     : No
+------------------------------------------
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   345388 B ( 337.3 KB)
+  Free Bytes        :   315156 B ( 307.8 KB)
+  Allocated Bytes   :    23184 B (  22.6 KB)
+  Minimum Free Bytes:   309636 B ( 302.4 KB)
+  Largest Free Block:   110580 B ( 108.0 KB)
+------------------------------------------
+Flash Info:
+------------------------------------------
+  Chip Size         :  4194304 B (4 MB)
+  Block Size        :    65536 B (  64.0 KB)
+  Sector Size       :     4096 B (   4.0 KB)
+  Page Size         :      256 B (   0.2 KB)
+  Bus Speed         : 40 MHz
+  Bus Mode          : DIO
+------------------------------------------
+Partitions Info:
+------------------------------------------
+                nvs : addr: 0x00009000, size:    20.0 KB, type: DATA, subtype: NVS
+            otadata : addr: 0x0000E000, size:     8.0 KB, type: DATA, subtype: OTA
+               app0 : addr: 0x00010000, size:  1280.0 KB, type:  APP, subtype: OTA_0
+               app1 : addr: 0x00150000, size:  1280.0 KB, type:  APP, subtype: OTA_1
+             spiffs : addr: 0x00290000, size:  1408.0 KB, type: DATA, subtype: SPIFFS
+           coredump : addr: 0x003F0000, size:    64.0 KB, type: DATA, subtype: COREDUMP
+------------------------------------------
+Software Info:
+------------------------------------------
+  Compile Date/Time : May 25 2024 16:58:11
+  ESP-IDF Version   : v5.1.3-462-gc432c692fa-dirty
+  Arduino Version   : 3.0.0
+------------------------------------------
+Board Info:
+------------------------------------------
+  Arduino Board     : NodeMCU-32S
+  Arduino Variant   : nodemcu-32s
+  Core Debug Level  : 5
+  Arduino Runs Core : 1
+  Arduino Events on : 1
+  CDC On Boot       : 0
+============ Before Setup End ============
+[   691][V][esp32-hal-uart.c:408] uartBegin(): UART0 baud(115200) Mode(800001c) rxPin(3) txPin(1)
+[   700][V][esp32-hal-uart.c:497] uartBegin(): UART0 not installed. Starting installation
+[   711][V][esp32-hal-uart.c:544] uartBegin(): UART0 initialization done.
+E (672) wifi_init: Failed to init supplicant (0xffffffff)
+[   840][E][WiFiGeneric.cpp:248] wifiLowLevelInit(): esp_wifi_init -1
+
+assert failed: void setup() main.cpp:19 (WiFi.mode(WIFI_AP))
+
+
+Backtrace: 0x40083085:0x3ffb20c0 0x4008bd41:0x3ffb20e0 0x400911fa:0x3ffb2100 0x400d2c1d:0x3ffb2230 0x400d9093:0x3ffb2290
+  #0  0x40083085 in panic_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/panic.c:466
+  #1  0x4008bd41 in esp_system_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/port/esp_system_chip.c:84
+  #2  0x400911fa in __assert_func at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/newlib/assert.c:81
+  #3  0x400d2c1d in setup() at src/main.cpp:19 (discriminator 1)
+  #4  0x400d9093 in loopTask(void*) at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/main.cpp:58
+
+
+
+
+
+ELF file SHA256: fc2a090461c8d5bc
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1288
+load:0x40078000,len:13856
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3048
+entry 0x40080590
+[     2][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[    14][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[    27][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[    41][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[    54][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[    67][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[    81][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[    94][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   108][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[   121][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[   135][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[   148][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   164][D][esp32-hal-cpu.c:264] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   187][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 3 successfully set to type UART_RX (2) with bus 0x3ffbdb68
+  #0  0x3ffbdb68 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+[   199][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 1 successfully set to type UART_TX (3) with bus 0x3ffbdb68
+  #0  0x3ffbdb68 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+=========== Before Setup Start ===========
+Chip Info:
+------------------------------------------
+  Model             : ESP32
+  Package           : D0WD-Q5
+  Revision          : 1.45
+  Cores             : 2
+  Frequency         : 240 MHz
+  Embedded Flash    : No
+  Embedded PSRAM    : No
+  2.4GHz WiFi       : Yes
+  Classic BT        : Yes
+  BT Low Energy     : Yes
+  IEEE 802.15.4     : No
+------------------------------------------
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   345388 B ( 337.3 KB)
+  Free Bytes        :   315156 B ( 307.8 KB)
+  Allocated Bytes   :    23184 B (  22.6 KB)
+  Minimum Free Bytes:   309636 B ( 302.4 KB)
+  Largest Free Block:   110580 B ( 108.0 KB)
+------------------------------------------
+Flash Info:
+------------------------------------------
+  Chip Size         :  4194304 B (4 MB)
+  Block Size        :    65536 B (  64.0 KB)
+  Sector Size       :     4096 B (   4.0 KB)
+  Page Size         :      256 B (   0.2 KB)
+  Bus Speed         : 40 MHz
+  Bus Mode          : DIO
+------------------------------------------
+Partitions Info:
+------------------------------------------
+                nvs : addr: 0x00009000, size:    20.0 KB, type: DATA, subtype: NVS
+            otadata : addr: 0x0000E000, size:     8.0 KB, type: DATA, subtype: OTA
+               app0 : addr: 0x00010000, size:  1280.0 KB, type:  APP, subtype: OTA_0
+               app1 : addr: 0x00150000, size:  1280.0 KB, type:  APP, subtype: OTA_1
+             spiffs : addr: 0x00290000, size:  1408.0 KB, type: DATA, subtype: SPIFFS
+           coredump : addr: 0x003F0000, size:    64.0 KB, type: DATA, subtype: COREDUMP
+------------------------------------------
+Software Info:
+------------------------------------------
+  Compile Date/Time : May 25 2024 16:58:11
+  ESP-IDF Version   : v5.1.3-462-gc432c692fa-dirty
+  Arduino Version   : 3.0.0
+------------------------------------------
+Board Info:
+------------------------------------------
+  Arduino Board     : NodeMCU-32S
+  Arduino Variant   : nodemcu-32s
+  Core Debug Level  : 5
+  Arduino Runs Core : 1
+  Arduino Events on : 1
+  CDC On Boot       : 0
+============ Before Setup End ============
+[   691][V][esp32-hal-uart.c:408] uartBegin(): UART0 baud(115200) Mode(800001c) rxPin(3) txPin(1)
+[   700][V][esp32-hal-uart.c:497] uartBegin(): UART0 not installed. Starting installation
+[   711][V][esp32-hal-uart.c:544] uartBegin(): UART0 initialization done.
+E (672) wifi_init: Failed to init supplicant (0xffffffff)
+[   840][E][WiFiGeneric.cpp:248] wifiLowLevelInit(): esp_wifi_init -1
+
+assert failed: void setup() main.cpp:19 (WiFi.mode(WIFI_AP))
+
+
+Backtrace: 0x40083085:0x3ffb20c0 0x4008bd41:0x3ffb20e0 0x400911fa:0x3ffb2100 0x400d2c1d:0x3ffb2230 0x400d9093:0x3ffb2290
+  #0  0x40083085 in panic_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/panic.c:466
+  #1  0x4008bd41 in esp_system_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/port/esp_system_chip.c:84
+  #2  0x400911fa in __assert_func at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/newlib/assert.c:81
+  #3  0x400d2c1d in setup() at src/main.cpp:19 (discriminator 1)
+  #4  0x400d9093 in loopTask(void*) at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/main.cpp:58
+
+
+
+
+
+ELF file SHA256: fc2a090461c8d5bc
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1288
+load:0x40078000,len:13856
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3048
+entry 0x40080590
+[     2][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[    14][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[    27][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[    41][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[    54][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[    67][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[    81][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[    94][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   108][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[   121][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[   135][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[   148][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   164][D][esp32-hal-cpu.c:264] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   187][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 3 successfully set to type UART_RX (2) with bus 0x3ffbdb68
+  #0  0x3ffbdb68 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+[   199][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 1 successfully set to type UART_TX (3) with bus 0x3ffbdb68
+  #0  0x3ffbdb68 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+=========== Before Setup Start ===========
+Chip Info:
+------------------------------------------
+  Model             : ESP32
+  Package           : D0WD-Q5
+  Revision          : 1.45
+  Cores             : 2
+  Frequency         : 240 MHz
+  Embedded Flash    : No
+  Embedded PSRAM    : No
+  2.4GHz WiFi       : Yes
+  Classic BT        : Yes
+  BT Low Energy     : Yes
+  IEEE 802.15.4     : No
+------------------------------------------
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   345388 B ( 337.3 KB)
+  Free Bytes        :   315156 B ( 307.8 KB)
+  Allocated Bytes   :    23184 B (  22.6 KB)
+  Minimum Free Bytes:   309636 B ( 302.4 KB)
+  Largest Free Block:   110580 B ( 108.0 KB)
+------------------------------------------
+Flash Info:
+------------------------------------------
+  Chip Size         :  4194304 B (4 MB)
+  Block Size        :    65536 B (  64.0 KB)
+  Sector Size       :     4096 B (   4.0 KB)
+  Page Size         :      256 B (   0.2 KB)
+  Bus Speed         : 40 MHz
+  Bus Mode          : DIO
+------------------------------------------
+Partitions Info:
+------------------------------------------
+                nvs : addr: 0x00009000, size:    20.0 KB, type: DATA, subtype: NVS
+            otadata : addr: 0x0000E000, size:     8.0 KB, type: DATA, subtype: OTA
+               app0 : addr: 0x00010000, size:  1280.0 KB, type:  APP, subtype: OTA_0
+               app1 : addr: 0x00150000, size:  1280.0 KB, type:  APP, subtype: OTA_1
+             spiffs : addr: 0x00290000, size:  1408.0 KB, type: DATA, subtype: SPIFFS
+           coredump : addr: 0x003F0000, size:    64.0 KB, type: DATA, subtype: COREDUMP
+------------------------------------------
+Software Info:
+------------------------------------------
+  Compile Date/Time : May 25 2024 16:58:11
+  ESP-IDF Version   : v5.1.3-462-gc432c692fa-dirty
+  Arduino Version   : 3.0.0
+------------------------------------------
+Board Info:
+------------------------------------------
+  Arduino Board     : NodeMCU-32S
+  Arduino Variant   : nodemcu-32s
+  Core Debug Level  : 5
+  Arduino Runs Core : 1
+  Arduino Events on : 1
+  CDC On Boot       : 0
+============ Before Setup End ============
+[   691][V][esp32-hal-uart.c:408] uartBegin(): UART0 baud(115200) Mode(800001c) rxPin(3) txPin(1)
+[   700][V][esp32-hal-uart.c:497] uartBegin(): UART0 not installed. Starting installation
+[   711][V][esp32-hal-uart.c:544] uartBegin(): UART0 initialization done.
+E (672) wifi_init: Failed to init supplicant (0xffffffff)
+[   840][E][WiFiGeneric.cpp:248] wifiLowLevelInit(): esp_wifi_init -1
+
+assert failed: void setup() main.cpp:19 (WiFi.mode(WIFI_AP))
+
+
+Backtrace: 0x40083085:0x3ffb20c0 0x4008bd41:0x3ffb20e0 0x400911fa:0x3ffb2100 0x400d2c1d:0x3ffb2230 0x400d9093:0x3ffb2290
+  #0  0x40083085 in panic_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/panic.c:466
+  #1  0x4008bd41 in esp_system_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/port/esp_system_chip.c:84
+  #2  0x400911fa in __assert_func at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/newlib/assert.c:81
+  #3  0x400d2c1d in setup() at src/main.cpp:19 (discriminator 1)
+  #4  0x400d9093 in loopTask(void*) at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/main.cpp:58
+
+
+
+
+
+ELF file SHA256: fc2a090461c8d5bc
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1288
+load:0x40078000,len:13856
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3048
+entry 0x40080590
+[     2][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[    14][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[    27][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[    41][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[    54][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[    67][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[    81][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[    94][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   108][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[   121][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[   135][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[   148][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   164][D][esp32-hal-cpu.c:264] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   187][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 3 successfully set to type UART_RX (2) with bus 0x3ffbdb68
+  #0  0x3ffbdb68 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+[   199][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 1 successfully set to type UART_TX (3) with bus 0x3ffbdb68
+  #0  0x3ffbdb68 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+=========== Before Setup Start ===========
+Chip Info:
+------------------------------------------
+  Model             : ESP32
+  Package           : D0WD-Q5
+  Revision          : 1.45
+  Cores             : 2
+  Frequency         : 240 MHz
+  Embedded Flash    : No
+  Embedded PSRAM    : No
+  2.4GHz WiFi       : Yes
+  Classic BT        : Yes
+  BT Low Energy     : Yes
+  IEEE 802.15.4     : No
+------------------------------------------
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   345388 B ( 337.3 KB)
+  Free Bytes        :   315156 B ( 307.8 KB)
+  Allocated Bytes   :    23184 B (  22.6 KB)
+  Minimum Free Bytes:   309636 B ( 302.4 KB)
+  Largest Free Block:   110580 B ( 108.0 KB)
+------------------------------------------
+Flash Info:
+------------------------------------------
+  Chip Size         :  4194304 B (4 MB)
+  Block Size        :    65536 B (  64.0 KB)
+  Sector Size       :     4096 B (   4.0 KB)
+  Page Size         :      256 B (   0.2 KB)
+  Bus Speed         : 40 MHz
+  Bus Mode          : DIO
+------------------------------------------
+Partitions Info:
+------------------------------------------
+                nvs : addr: 0x00009000, size:    20.0 KB, type: DATA, subtype: NVS
+            otadata : addr: 0x0000E000, size:     8.0 KB, type: DATA, subtype: OTA
+               app0 : addr: 0x00010000, size:  1280.0 KB, type:  APP, subtype: OTA_0
+               app1 : addr: 0x00150000, size:  1280.0 KB, type:  APP, subtype: OTA_1
+             spiffs : addr: 0x00290000, size:  1408.0 KB, type: DATA, subtype: SPIFFS
+           coredump : addr: 0x003F0000, size:    64.0 KB, type: DATA, subtype: COREDUMP
+------------------------------------------
+Software Info:
+------------------------------------------
+  Compile Date/Time : May 25 2024 16:58:11
+  ESP-IDF Version   : v5.1.3-462-gc432c692fa-dirty
+  Arduino Version   : 3.0.0
+------------------------------------------
+Board Info:
+------------------------------------------
+  Arduino Board     : NodeMCU-32S
+  Arduino Variant   : nodemcu-32s
+  Core Debug Level  : 5
+  Arduino Runs Core : 1
+  Arduino Events on : 1
+  CDC On Boot       : 0
+============ Before Setup End ============
+[   691][V][esp32-hal-uart.c:408] uartBegin(): UART0 baud(115200) Mode(800001c) rxPin(3) txPin(1)
+[   700][V][esp32-hal-uart.c:497] uartBegin(): UART0 not installed. Starting installation
+[   711][V][esp32-hal-uart.c:544] uartBegin(): UART0 initialization done.
+E (672) wifi_init: Failed to init supplicant (0xffffffff)
+[   840][E][WiFiGeneric.cpp:248] wifiLowLevelInit(): esp_wifi_init -1
+
+assert failed: void setup() main.cpp:19 (WiFi.mode(WIFI_AP))
+
+
+Backtrace: 0x40083085:0x3ffb20c0 0x4008bd41:0x3ffb20e0 0x400911fa:0x3ffb2100 0x400d2c1d:0x3ffb2230 0x400d9093:0x3ffb2290
+  #0  0x40083085 in panic_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/panic.c:466
+  #1  0x4008bd41 in esp_system_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/port/esp_system_chip.c:84
+  #2  0x400911fa in __assert_func at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/newlib/assert.c:81
+  #3  0x400d2c1d in setup() at src/main.cpp:19 (discriminator 1)
+  #4  0x400d9093 in loopTask(void*) at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/main.cpp:58
+
+
+
+
+
+ELF file SHA256: fc2a090461c8d5bc
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1288
+load:0x40078000,len:13856
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3048
+entry 0x40080590
+[     2][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[    14][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[    27][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[    41][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[    54][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[    67][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[    81][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[    94][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   108][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[   121][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[   135][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[   148][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   164][D][esp32-hal-cpu.c:264] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   187][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 3 successfully set to type UART_RX (2) with bus 0x3ffbdb68
+  #0  0x3ffbdb68 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+[   199][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 1 successfully set to type UART_TX (3) with bus 0x3ffbdb68
+  #0  0x3ffbdb68 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+=========== Before Setup Start ===========
+Chip Info:
+------------------------------------------
+  Model             : ESP32
+  Package           : D0WD-Q5
+  Revision          : 1.45
+  Cores             : 2
+  Frequency         : 240 MHz
+  Embedded Flash    : No
+  Embedded PSRAM    : No
+  2.4GHz WiFi       : Yes
+  Classic BT        : Yes
+  BT Low Energy     : Yes
+  IEEE 802.15.4     : No
+------------------------------------------
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   345388 B ( 337.3 KB)
+  Free Bytes        :   315156 B ( 307.8 KB)
+  Allocated Bytes   :    23184 B (  22.6 KB)
+  Minimum Free Bytes:   309636 B ( 302.4 KB)
+  Largest Free Block:   110580 B ( 108.0 KB)
+------------------------------------------
+Flash Info:
+------------------------------------------
+  Chip Size         :  4194304 B (4 MB)
+  Block Size        :    65536 B (  64.0 KB)
+  Sector Size       :     4096 B (   4.0 KB)
+  Page Size         :      256 B (   0.2 KB)
+  Bus Speed         : 40 MHz
+  Bus Mode          : DIO
+------------------------------------------
+Partitions Info:
+------------------------------------------
+                nvs : addr: 0x00009000, size:    20.0 KB, type: DATA, subtype: NVS
+            otadata : addr: 0x0000E000, size:     8.0 KB, type: DATA, subtype: OTA
+               app0 : addr: 0x00010000, size:  1280.0 KB, type:  APP, subtype: OTA_0
+               app1 : addr: 0x00150000, size:  1280.0 KB, type:  APP, subtype: OTA_1
+             spiffs : addr: 0x00290000, size:  1408.0 KB, type: DATA, subtype: SPIFFS
+           coredump : addr: 0x003F0000, size:    64.0 KB, type: DATA, subtype: COREDUMP
+------------------------------------------
+Software Info:
+------------------------------------------
+  Compile Date/Time : May 25 2024 16:58:11
+  ESP-IDF Version   : v5.1.3-462-gc432c692fa-dirty
+  Arduino Version   : 3.0.0
+------------------------------------------
+Board Info:
+------------------------------------------
+  Arduino Board     : NodeMCU-32S
+  Arduino Variant   : nodemcu-32s
+  Core Debug Level  : 5
+  Arduino Runs Core : 1
+  Arduino Events on : 1
+  CDC On Boot       : 0
+============ Before Setup End ============
+[   691][V][esp32-hal-uart.c:408] uartBegin(): UART0 baud(115200) Mode(800001c) rxPin(3) txPin(1)
+[   700][V][esp32-hal-uart.c:497] uartBegin(): UART0 not installed. Starting installation
+[   711][V][esp32-hal-uart.c:544] uartBegin(): UART0 initialization done.
+E (672) wifi_init: Failed to init supplicant (0xffffffff)
+[   840][E][WiFiGeneric.cpp:248] wifiLowLevelInit(): esp_wifi_init -1
+
+assert failed: void setup() main.cpp:19 (WiFi.mode(WIFI_AP))
+
+
+Backtrace: 0x40083085:0x3ffb20c0 0x4008bd41:0x3ffb20e0 0x400911fa:0x3ffb2100 0x400d2c1d:0x3ffb2230 0x400d9093:0x3ffb2290
+  #0  0x40083085 in panic_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/panic.c:466
+  #1  0x4008bd41 in esp_system_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/port/esp_system_chip.c:84
+  #2  0x400911fa in __assert_func at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/newlib/assert.c:81
+  #3  0x400d2c1d in setup() at src/main.cpp:19 (discriminator 1)
+  #4  0x400d9093 in loopTask(void*) at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/main.cpp:58
+
+
+
+
+
+ELF file SHA256: fc2a090461c8d5bc
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1288
+load:0x40078000,len:13856
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3048
+entry 0x40080590
+[     2][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[    14][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[    27][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[    41][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[    54][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[    67][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[    81][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[    94][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   108][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[   121][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[   135][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[   148][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   164][D][esp32-hal-cpu.c:264] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   187][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 3 successfully set to type UART_RX (2) with bus 0x3ffbdb68
+  #0  0x3ffbdb68 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+[   199][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 1 successfully set to type UART_TX (3) with bus 0x3ffbdb68
+  #0  0x3ffbdb68 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+=========== Before Setup Start ===========
+Chip Info:
+------------------------------------------
+  Model             : ESP32
+  Package           : D0WD-Q5
+  Revision          : 1.45
+  Cores             : 2
+  Frequency         : 240 MHz
+  Embedded Flash    : No
+  Embedded PSRAM    : No
+  2.4GHz WiFi       : Yes
+  Classic BT        : Yes
+  BT Low Energy     : Yes
+  IEEE 802.15.4     : No
+------------------------------------------
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   345388 B ( 337.3 KB)
+  Free Bytes        :   315156 B ( 307.8 KB)
+  Allocated Bytes   :    23184 B (  22.6 KB)
+  Minimum Free Bytes:   309636 B ( 302.4 KB)
+  Largest Free Block:   110580 B ( 108.0 KB)
+------------------------------------------
+Flash Info:
+------------------------------------------
+  Chip Size         :  4194304 B (4 MB)
+  Block Size        :    65536 B (  64.0 KB)
+  Sector Size       :     4096 B (   4.0 KB)
+  Page Size         :      256 B (   0.2 KB)
+  Bus Speed         : 40 MHz
+  Bus Mode          : DIO
+------------------------------------------
+Partitions Info:
+------------------------------------------
+                nvs : addr: 0x00009000, size:    20.0 KB, type: DATA, subtype: NVS
+            otadata : addr: 0x0000E000, size:     8.0 KB, type: DATA, subtype: OTA
+               app0 : addr: 0x00010000, size:  1280.0 KB, type:  APP, subtype: OTA_0
+               app1 : addr: 0x00150000, size:  1280.0 KB, type:  APP, subtype: OTA_1
+             spiffs : addr: 0x00290000, size:  1408.0 KB, type: DATA, subtype: SPIFFS
+           coredump : addr: 0x003F0000, size:    64.0 KB, type: DATA, subtype: COREDUMP
+------------------------------------------
+Software Info:
+------------------------------------------
+  Compile Date/Time : May 25 2024 16:58:11
+  ESP-IDF Version   : v5.1.3-462-gc432c692fa-dirty
+  Arduino Version   : 3.0.0
+------------------------------------------
+Board Info:
+------------------------------------------
+  Arduino Board     : NodeMCU-32S
+  Arduino Variant   : nodemcu-32s
+  Core Debug Level  : 5
+  Arduino Runs Core : 1
+  Arduino Events on : 1
+  CDC On Boot       : 0
+============ Before Setup End ============
+[   691][V][esp32-hal-uart.c:408] uartBegin(): UART0 baud(115200) Mode(800001c) rxPin(3) txPin(1)
+[   700][V][esp32-hal-uart.c:497] uartBegin(): UART0 not installed. Starting installation
+[   711][V][esp32-hal-uart.c:544] uartBegin(): UART0 initialization done.
+E (672) wifi_init: Failed to init supplicant (0xffffffff)
+[   840][E][WiFiGeneric.cpp:248] wifiLowLevelInit(): esp_wifi_init -1
+
+assert failed: void setup() main.cpp:19 (WiFi.mode(WIFI_AP))
+
+
+Backtrace: 0x40083085:0x3ffb20c0 0x4008bd41:0x3ffb20e0 0x400911fa:0x3ffb2100 0x400d2c1d:0x3ffb2230 0x400d9093:0x3ffb2290
+  #0  0x40083085 in panic_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/panic.c:466
+  #1  0x4008bd41 in esp_system_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/port/esp_system_chip.c:84
+  #2  0x400911fa in __assert_func at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/newlib/assert.c:81
+  #3  0x400d2c1d in setup() at src/main.cpp:19 (discriminator 1)
+  #4  0x400d9093 in loopTask(void*) at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/main.cpp:58
+
+
+
+
+
+ELF file SHA256: fc2a090461c8d5bc
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1288
+load:0x40078000,len:13856
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3048
+entry 0x40080590
+[     2][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[    14][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[    27][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[    41][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[    54][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[    67][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[    81][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[    94][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   108][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[   121][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[   135][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[   148][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   164][D][esp32-hal-cpu.c:264] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   187][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 3 successfully set to type UART_RX (2) with bus 0x3ffbdb68
+  #0  0x3ffbdb68 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+[   199][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 1 successfully set to type UART_TX (3) with bus 0x3ffbdb68
+  #0  0x3ffbdb68 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+=========== Before Setup Start ===========
+Chip Info:
+------------------------------------------
+  Model             : ESP32
+  Package           : D0WD-Q5
+  Revision          : 1.45
+  Cores             : 2
+  Frequency         : 240 MHz
+  Embedded Flash    : No
+  Embedded PSRAM    : No
+  2.4GHz WiFi       : Yes
+  Classic BT        : Yes
+  BT Low Energy     : Yes
+  IEEE 802.15.4     : No
+------------------------------------------
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   345388 B ( 337.3 KB)
+  Free Bytes        :   315156 B ( 307.8 KB)
+  Allocated Bytes   :    23184 B (  22.6 KB)
+  Minimum Free Bytes:   309636 B ( 302.4 KB)
+  Largest Free Block:   110580 B ( 108.0 KB)
+------------------------------------------
+Flash Info:
+------------------------------------------
+  Chip Size         :  4194304 B (4 MB)
+  Block Size        :    65536 B (  64.0 KB)
+  Sector Size       :     4096 B (   4.0 KB)
+  Page Size         :      256 B (   0.2 KB)
+  Bus Speed         : 40 MHz
+  Bus Mode          : DIO
+------------------------------------------
+Partitions Info:
+------------------------------------------
+                nvs : addr: 0x00009000, size:    20.0 KB, type: DATA, subtype: NVS
+            otadata : addr: 0x0000E000, size:     8.0 KB, type: DATA, subtype: OTA
+               app0 : addr: 0x00010000, size:  1280.0 KB, type:  APP, subtype: OTA_0
+               app1 : addr: 0x00150000, size:  1280.0 KB, type:  APP, subtype: OTA_1
+             spiffs : addr: 0x00290000, size:  1408.0 KB, type: DATA, subtype: SPIFFS
+           coredump : addr: 0x003F0000, size:    64.0 KB, type: DATA, subtype: COREDUMP
+------------------------------------------
+Software Info:
+------------------------------------------
+  Compile Date/Time : May 25 2024 16:58:11
+  ESP-IDF Version   : v5.1.3-462-gc432c692fa-dirty
+  Arduino Version   : 3.0.0
+------------------------------------------
+Board Info:
+------------------------------------------
+  Arduino Board     : NodeMCU-32S
+  Arduino Variant   : nodemcu-32s
+  Core Debug Level  : 5
+  Arduino Runs Core : 1
+  Arduino Events on : 1
+  CDC On Boot       : 0
+============ Before Setup End ============
+[   691][V][esp32-hal-uart.c:408] uartBegin(): UART0 baud(115200) Mode(800001c) rxPin(3) txPin(1)
+[   700][V][esp32-hal-uart.c:497] uartBegin(): UART0 not installed. Starting installation
+[   711][V][esp32-hal-uart.c:544] uartBegin(): UART0 initialization done.
+E (672) wifi_init: Failed to init supplicant (0xffffffff)
+[   840][E][WiFiGeneric.cpp:248] wifiLowLevelInit(): esp_wifi_init -1
+
+assert failed: void setup() main.cpp:19 (WiFi.mode(WIFI_AP))
+
+
+Backtrace: 0x40083085:0x3ffb20c0 0x4008bd41:0x3ffb20e0 0x400911fa:0x3ffb2100 0x400d2c1d:0x3ffb2230 0x400d9093:0x3ffb2290
+  #0  0x40083085 in panic_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/panic.c:466
+  #1  0x4008bd41 in esp_system_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/port/esp_system_chip.c:84
+  #2  0x400911fa in __assert_func at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/newlib/assert.c:81
+  #3  0x400d2c1d in setup() at src/main.cpp:19 (discriminator 1)
+  #4  0x400d9093 in loopTask(void*) at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/main.cpp:58
+
+
+
+
+
+ELF file SHA256: fc2a090461c8d5bc
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1288
+load:0x40078000,len:13856
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3048
+entry 0x40080590
+[     2][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[    14][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[    27][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[    41][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[    54][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[    67][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[    81][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[    94][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   108][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[   121][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[   135][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[   148][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   164][D][esp32-hal-cpu.c:264] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   187][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 3 successfully set to type UART_RX (2) with bus 0x3ffbdb68
+  #0  0x3ffbdb68 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+[   199][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 1 successfully set to type UART_TX (3) with bus 0x3ffbdb68
+  #0  0x3ffbdb68 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+=========== Before Setup Start ===========
+Chip Info:
+------------------------------------------
+  Model             : ESP32
+  Package           : D0WD-Q5
+  Revision          : 1.45
+  Cores             : 2
+  Frequency         : 240 MHz
+  Embedded Flash    : No
+  Embedded PSRAM    : No
+  2.4GHz WiFi       : Yes
+  Classic BT        : Yes
+  BT Low Energy     : Yes
+  IEEE 802.15.4     : No
+------------------------------------------
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   345388 B ( 337.3 KB)
+  Free Bytes        :   315156 B ( 307.8 KB)
+  Allocated Bytes   :    23184 B (  22.6 KB)
+  Minimum Free Bytes:   309636 B ( 302.4 KB)
+  Largest Free Block:   110580 B ( 108.0 KB)
+------------------------------------------
+Flash Info:
+------------------------------------------
+  Chip Size         :  4194304 B (4 MB)
+  Block Size        :    65536 B (  64.0 KB)
+  Sector Size       :     4096 B (   4.0 KB)
+  Page Size         :      256 B (   0.2 KB)
+  Bus Speed         : 40 MHz
+  Bus Mode          : DIO
+------------------------------------------
+Partitions Info:
+------------------------------------------
+                nvs : addr: 0x00009000, size:    20.0 KB, type: DATA, subtype: NVS
+            otadata : addr: 0x0000E000, size:     8.0 KB, type: DATA, subtype: OTA
+               app0 : addr: 0x00010000, size:  1280.0 KB, type:  APP, subtype: OTA_0
+               app1 : addr: 0x00150000, size:  1280.0 KB, type:  APP, subtype: OTA_1
+             spiffs : addr: 0x00290000, size:  1408.0 KB, type: DATA, subtype: SPIFFS
+           coredump : addr: 0x003F0000, size:    64.0 KB, type: DATA, subtype: COREDUMP
+------------------------------------------
+Software Info:
+------------------------------------------
+  Compile Date/Time : May 25 2024 16:58:11
+  ESP-IDF Version   : v5.1.3-462-gc432c692fa-dirty
+  Arduino Version   : 3.0.0
+------------------------------------------
+Board Info:
+------------------------------------------
+  Arduino Board     : NodeMCU-32S
+  Arduino Variant   : nodemcu-32s
+  Core Debug Level  : 5
+  Arduino Runs Core : 1
+  Arduino Events on : 1
+  CDC On Boot       : 0
+============ Before Setup End ============
+[   691][V][esp32-hal-uart.c:408] uartBegin(): UART0 baud(115200) Mode(800001c) rxPin(3) txPin(1)
+[   700][V][esp32-hal-uart.c:497] uartBegin(): UART0 not installed. Starting installation
+[   711][V][esp32-hal-uart.c:544] uartBegin(): UART0 initialization done.
+E (672) wifi_init: Failed to init supplicant (0xffffffff)
+[   840][E][WiFiGeneric.cpp:248] wifiLowLevelInit(): esp_wifi_init -1
+
+assert failed: void setup() main.cpp:19 (WiFi.mode(WIFI_AP))
+
+
+Backtrace: 0x40083085:0x3ffb20c0 0x4008bd41:0x3ffb20e0 0x400911fa:0x3ffb2100 0x400d2c1d:0x3ffb2230 0x400d9093:0x3ffb2290
+  #0  0x40083085 in panic_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/panic.c:466
+  #1  0x4008bd41 in esp_system_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/port/esp_system_chip.c:84
+  #2  0x400911fa in __assert_func at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/newlib/assert.c:81
+  #3  0x400d2c1d in setup() at src/main.cpp:19 (discriminator 1)
+  #4  0x400d9093 in loopTask(void*) at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/main.cpp:58
+
+
+
+
+
+ELF file SHA256: fc2a090461c8d5bc
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1288
+load:0x40078000,len:13856
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3048
+entry 0x40080590
+[     2][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[    14][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[    27][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[    41][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[    54][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[    67][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[    81][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[    94][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   108][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x400d82ac
+  #0  0x400d82ac in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[   121][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x400d827c
+  #0  0x400d827c in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[   135][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x400d824c
+  #0  0x400d824c in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[   148][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x400d821c
+  #0  0x400d821c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   164][D][esp32-hal-cpu.c:264] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   187][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 3 successfully set to type UART_RX (2) with bus 0x3ffbdb68
+  #0  0x3ffbdb68 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+[   199][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 1 successfully set to type UART_TX (3) with bus 0x3ffbdb68
+  #0  0x3ffbdb68 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+=========== Before Setup Start ===========
+Chip Info:
+------------------------------------------
+  Model             : ESP32
+  Package           : D0WD-Q5
+  Revision          : 1.45
+  Cores             : 2
+  Frequency         : 240 MHz
+  Embedded Flash    : No
+  Embedded PSRAM    : No
+  2.4GHz WiFi       : Yes
+  Classic BT        : Yes
+  BT Low Energy     : Yes
+  IEEE 802.15.4     : No
+------------------------------------------

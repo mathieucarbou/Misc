@@ -1,0 +1,104 @@
+[   267][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RX (2) successfully set to 0x420087c8
+  #0  0x420087c8 in _uartDetachBus_RX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:153
+
+[   278][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_TX (3) successfully set to 0x42008794
+  #0  0x42008794 in _uartDetachBus_TX at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:160
+
+[   290][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_CTS (4) successfully set to 0x42008760
+  #0  0x42008760 in _uartDetachBus_CTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:167
+
+[   301][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type UART_RTS (5) successfully set to 0x4200872c
+  #0  0x4200872c in _uartDetachBus_RTS at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:174
+
+[   346][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 44 successfully set to type UART_RX (2) with bus 0x3fc93b08
+  #0  0x3fc93b08 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+[   357][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 43 successfully set to type UART_TX (3) with bus 0x3fc93b08
+  #0  0x3fc93b08 in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/esp32-hal-uart.c:82
+
+=========== Before Setup Start ===========
+Chip Info:
+------------------------------------------
+  Model             : ESP32-S3
+  Package           : 0
+  Revision          : 2
+  Cores             : 2
+  Frequency         : 240 MHz
+  Embedded Flash    : No
+  Embedded PSRAM    : No
+  2.4GHz WiFi       : Yes
+  Classic BT        : No
+  BT Low Energy     : Yes
+  IEEE 802.15.4     : No
+------------------------------------------
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   378244 B ( 369.4 KB)
+  Free Bytes        :   349448 B ( 341.3 KB)
+  Allocated Bytes   :    23844 B (  23.3 KB)
+  Minimum Free Bytes:   344140 B ( 336.1 KB)
+  Largest Free Block:   311284 B ( 304.0 KB)
+------------------------------------------
+Flash Info:
+------------------------------------------
+  Chip Size         : 16777216 B (16 MB)
+  Block Size        :    65536 B (  64.0 KB)
+  Sector Size       :     4096 B (   4.0 KB)
+  Page Size         :      256 B (   0.2 KB)
+  Bus Speed         : 80 MHz
+  Bus Mode          : QIO
+------------------------------------------
+Partitions Info:
+------------------------------------------
+                nvs : addr: 0x00009000, size:    20.0 KB, type: DATA, subtype: NVS
+            otadata : addr: 0x0000E000, size:     8.0 KB, type: DATA, subtype: OTA
+               app0 : addr: 0x00010000, size:  3264.0 KB, type:  APP, subtype: OTA_0
+               app1 : addr: 0x00340000, size:  3264.0 KB, type:  APP, subtype: OTA_1
+             spiffs : addr: 0x00670000, size:  1536.0 KB, type: DATA, subtype: SPIFFS
+           coredump : addr: 0x007F0000, size:    64.0 KB, type: DATA, subtype: COREDUMP
+------------------------------------------
+Software Info:
+------------------------------------------
+  Compile Date/Time : May 25 2024 16:28:43
+  ESP-IDF Version   : v5.1.3-462-gc432c692fa-dirty
+  Arduino Version   : 3.0.0
+------------------------------------------
+Board Info:
+------------------------------------------
+  Arduino Board     : Espressif ESP32-S3-DevKitC-1-N8 (8 MB QD, No PSRAM)
+  Arduino Variant   : esp32s3
+  Core Debug Level  : 5
+  Arduino Runs Core : 1
+  Arduino Events on : 1
+  Arduino USB Mode  : 1
+  CDC On Boot       : 0
+============ Before Setup End ============
+[   669][V][esp32-hal-uart.c:408] uartBegin(): UART0 baud(115200) Mode(800001c) rxPin(44) txPin(43)
+[   678][V][esp32-hal-uart.c:497] uartBegin(): UART0 not installed. Starting installation
+[   686][V][esp32-hal-uart.c:544] uartBegin(): UART0 initialization done.
+[   809][V][NetworkEvents.cpp:119] checkForEvent(): Network Event: 9 - WIFI_READY
+[   878][W][main.cpp:25] setup(): [main] SUCCESS !
+[   878][V][AP.cpp:106] _onApEvent(): AP Started
+=========[   888][V][NetworkEvents.cpp:119] checkForEvent(): Net[   888][V][APw.ocrpkp :E1v1e0] _onApEvenntt:( )1:9  A-P  ASPt_oSpTpAeRdT
+
+[   899][D][AP.cpp:88] _onApArduinoEvent(): Arduino AP Event: 19 - AP_START
+[   901][V][AP.cpp:106] _onApEvent(): AP Started
+[   911][V][NetworkEvents.cpp:119] checkForEvent(): Network Event: 20 - AP_STOP
+[   918][D][AP.cpp:88] _onApArduinoEvent(): Arduino AP Event: 20 - AP_STOP
+[   925][V][NetworkEvents.cpp:119] checkForEvent(): Network Event: 19 - AP_START
+[   932][D][AP.cpp:88] _onApArduinoEvent(): Arduino AP Event: 19 - AP_START
+V][AP.cpp:106] _onApEvent(): AP StINTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   378244 B ( 369.4 KB)
+  Free Bytes        :   293436 B ( 286.6 KB)
+  Allocated Bytes   :    77144 B (  75.3 KB)
+  Minimum Free Bytes:   292836 B ( 286.0 KB)
+  Largest Free Block:   278516 B ( 272.0 KB)
+------------------------------------------
+GPIO Info:
+------------------------------------------
+  GPIO : BUS_TYPE[bus/unit][chan]
+  --------------------------------------  
+    43 : UART_TX[0]
+    44 : UART_RX[0]
+============ After Setup End =============

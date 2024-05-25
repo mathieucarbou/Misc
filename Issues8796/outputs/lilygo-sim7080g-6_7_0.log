@@ -1,0 +1,7 @@
+[  2352][V][WiFiGeneric.cpp:393] _arduino_event_cb(): AP Started
+[  2359][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 10 - AP_START
+[  2360][V][WiFiGeneric.cpp:396] _arduino_event_cb(): AP Stopped
+[  2372][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 11 - AP_STOP
+[  2373][V][WiFiGeneric.cpp:393] _arduino_event_cb(): AP Started
+[  2385][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 10 - AP_START
+SUCCESS !

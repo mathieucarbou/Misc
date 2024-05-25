@@ -1,0 +1,65 @@
+       :      256 B (   0.2 KB)
+  Bus Speed         : 80 MHz
+  Bus Mode          : QIO
+------------------------------------------
+Partitions Info:
+------------------------------------------
+                nvs : addr: 0x00009000, size:    20.0 KB, type: DATA, subtype: NVS
+            otadata : addr: 0x0000E000, size:     8.0 KB, type: DATA, subtype: OTA
+               app0 : addr: 0x00010000, size:  1280.0 KB, type:  APP, subtype: OTA_0
+               app1 : addr: 0x00150000, size:  1280.0 KB, type:  APP, subtype: OTA_1
+             spiffs : addr: 0x00290000, size:  1408.0 KB, type: DATA, subtype: SPIFFS
+           coredump : addr: 0x003F0000, size:    64.0 KB, type: DATA, subtype: COREDUMP
+------------------------------------------
+Software Info:
+------------------------------------------
+  Compile Date/Time : May 25 2024 16:45:39
+  ESP-IDF Version   : v5.1.3-462-gc432c692fa-dirty
+  Arduino Version   : 3.0.0
+------------------------------------------
+Board Info:
+------------------------------------------
+  Arduino Board     : WEMOS LOLIN C3 Mini
+  Arduino Variant   : lolin_c3_mini
+  Core Debug Level  : 5
+  Arduino Runs Core : 0
+  Arduino Events on : 0
+  Arduino USB Mode  : 1
+  CDC On Boot       : 1
+============ Before Setup End ============
+[   544][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 18 already has type USB_DM (38) with bus 0x3fc902ac
+  #0  0x3fc902ac in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/HWCDC.cpp:610
+
+[   544][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 19 already has type USB_DP (39) with bus 0x3fc902ac
+  #0  0x3fc902ac in ?? at /Users/mat/.platformio/packages/framework-arduinoespressif32@src-747bfffebb9f14cf442630ffa54d8fcd/cores/esp32/HWCDC.cpp:610
+
+[   650][V][NetworkEvents.cpp:119] checkForEvent(): Network Event: 9 - WIFI_READY
+[   699][V][AP.cpp:106] _onApEvent(): AP Started
+[   699][V][NetworkEvents.cpp:119] checkForEvent(): Network Event: 19 - AP_START
+[   700][D][AP.cpp:88] _onApArduinoEvent(): Arduino AP Event: 19 - AP_START
+[   702][V][AP.cpp:110] _onApEvent(): AP Stopped
+[   702][V][NetworkEvents.cpp:119] checkForEvent(): Network Event: 20 - AP_STOP
+[   703][D][AP.cpp:88] _onApArduinoEvent(): Arduino AP Event: 20 - AP_STOP
+[   704][V][AP.cpp:106] _onApEvent(): AP Started
+[   704][V][NetworkEvents.cpp:119] checkForEvent(): Network Event: 19 - AP_START
+[   705][D][AP.cpp:88] _onApArduinoEvent(): Arduino AP Event: 19 - AP_START
+SUCCESS !
+[   706][W][main.cpp:25] setup(): [main] SUCCESS !
+=========== After Setup Start ============
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   312072 B ( 304.8 KB)
+  Free Bytes        :   225532 B ( 220.2 KB)
+  Allocated Bytes   :    80172 B (  78.3 KB)
+  Minimum Free Bytes:   225532 B ( 220.2 KB)
+  Largest Free Block:   114676 B ( 112.0 KB)
+------------------------------------------
+GPIO Info:
+------------------------------------------
+  GPIO : BUS_TYPE[bus/unit][chan]
+  --------------------------------------  
+    18 : USB_DM
+    19 : USB_DP
+    20 : UART_RX[0]
+    21 : UART_TX[0]
+============ After Setup End =============

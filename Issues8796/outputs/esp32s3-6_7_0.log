@@ -1,0 +1,6 @@
+[   451][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 10 - AP_START
+[   452][V][WiFiGeneric.cpp:396] _arduino_event_cb(): AP Stopped
+[   464][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Even[   4t6:4 ]1[1V ]-[ WAiPF_iSGTeOnPeri
+c.cpp:393] _arduino_event_cb(): AP Started
+[   477][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 10 - AP_START
+[   484][W][main.cpp:25] setup(): [main] SUCCESS !

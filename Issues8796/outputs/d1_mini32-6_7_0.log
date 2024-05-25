@@ -1,0 +1,12 @@
+[[esp32-hal-uart.c:330] uartBegin(): UART0 baud(115200) Mode(800001c) rxPin(3) txPin(1)
+[    37][V][esp32-hal-uart.c:416] uartBegin(): UART0 not installed. Starting installation
+[    49][V][esp32-hal-uart.c:463] uartBegin(): UART0 initialization done.
+[   173][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   265][V][WiFiGeneric.cpp:393] _arduino_event_cb(): AP Started
+[   273][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 10 - AP_START
+[   277][V][WiFiGeneric.cpp:396] _arduino_event_cb(): AP Stopped
+[   286][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 11 - AP_STOP
+[   287][V][WiFiGeneric.cpp:393] _arduino_event_cb(): AP Started
+[   299][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 10 - AP_START
+SUCCESS !
+[   307][W][main.cpp:25] setup(): [main] SUCCESS !

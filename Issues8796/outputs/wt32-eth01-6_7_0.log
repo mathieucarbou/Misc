@@ -1,0 +1,24 @@
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff0030,len:1344
+load:0x40078000,len:13964
+load:0x40080400,len:3600
+entry 0x400805f0
+E (266) esp_core_dump_f��͡� Incorrect size of core dump image: 1
+[     4][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[    31][V][esp32-hal-uart.c:330] uartBegin(): UART0 baud(115200) Mode(800001c) rxPin(3) txPin(1)
+[    40][V][esp32-hal-uart.c:416] uartBegin(): UART0 not installed. Starting installation
+[    51][V][esp32-hal-uart.c:463] uartBegin(): UART0 initialization done.
+[   171][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   297][V][WiFiGeneric.cpp:393] _arduino_event_cb(): AP Started
+[   304][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 10 - AP_START
+[   305][V][WiFiGeneric.cpp:396] _arduino_event_cb(): AP Stopped
+[   317][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 11 - AP_STOP
+[   317][V][WiFiGeneric.cpp:393] _arduino_event_cb(): AP Started
+[   330][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 10 - AP_START
+SUCCESS !
+[   337][W][main.cpp:25] setup(): [main] SUCCESS !

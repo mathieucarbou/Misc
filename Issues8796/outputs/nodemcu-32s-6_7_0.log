@@ -1,0 +1,13 @@
+[     7][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[    24][V][esp32-hal-uart.c:330] uartBegin(): UART0 baud(115200) Mode(800001c) rxPin(3) txPin(1)
+[    33][V][esp32-hal-uart.c:416] uartBegin(): UART0 not installed. Starting installation
+[    45][V][esp32-hal-uart.c:463] uartBegin(): UART0 initialization done.
+[   171][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   259][V][WiFiGeneric.cpp:393] _arduino_event_cb(): AP Started
+[   267][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 10 - AP_START
+[   271][V][WiFiGeneric.cpp:396] _arduino_event_cb(): AP Stopped
+[   280][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 11 - AP_STOP
+[   281][V][WiFiGeneric.cpp:393] _arduino_event_cb(): AP Started
+[   293][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 10 - AP_START
+SUCCESS !
+[   301][W][main.cpp:25] setup(): [main] SUCCESS !
